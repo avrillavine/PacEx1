@@ -209,7 +209,7 @@
                                                                 </statement>
                                                                 <value name="IF1">
                                                                   <block type="logic_compare" id="152" inline="true">
-                                                                    <field name="OP">GTE</field>
+                                                                    <field name="OP">GT</field>
                                                                     <value name="A">
                                                                       <block type="variables_get" id="153">
                                                                         <field name="VAR">value</field>
@@ -217,7 +217,7 @@
                                                                     </value>
                                                                     <value name="B">
                                                                       <block type="math_number" id="154">
-                                                                        <field name="NUM">128</field>
+                                                                        <field name="NUM">1</field>
                                                                       </block>
                                                                     </value>
                                                                   </block>
