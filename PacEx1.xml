@@ -102,7 +102,7 @@
                                                             <field name="MODE">UNTIL</field>
                                                             <value name="NUMBER">
                                                               <block type="sensor_button" id="26">
-                                                                <field name="OBJECT">DOWN</field>
+                                                                <field name="OBJECT">LEFT</field>
                                                               </block>
                                                             </value>
                                                             <statement name="DO">
@@ -403,7 +403,7 @@
                                                             <field name="MODE">UNTIL</field>
                                                             <value name="NUMBER">
                                                               <block type="sensor_button" id="198">
-                                                                <field name="OBJECT">UP</field>
+                                                                <field name="OBJECT">RIGHT</field>
                                                               </block>
                                                             </value>
                                                             <statement name="DO">
