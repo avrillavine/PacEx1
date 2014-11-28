@@ -494,7 +494,7 @@
                                                                                                         <field name="MODE">WHILE</field>
                                                                                                         <value name="NUMBER">
                                                                                                           <block type="logic_compare" id="222" inline="true">
-                                                                                                            <field name="OP">GTE</field>
+                                                                                                            <field name="OP">LT</field>
                                                                                                             <value name="A">
                                                                                                               <block type="variables_get" id="223">
                                                                                                                 <field name="VAR">value</field>
