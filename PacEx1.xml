@@ -494,7 +494,7 @@
                                                                                                         <field name="MODE">WHILE</field>
                                                                                                         <value name="NUMBER">
                                                                                                           <block type="logic_compare" id="222" inline="true">
-                                                                                                            <field name="OP">LT</field>
+                                                                                                            <field name="OP">GTE</field>
                                                                                                             <value name="A">
                                                                                                               <block type="variables_get" id="223">
                                                                                                                 <field name="VAR">value</field>
@@ -502,7 +502,7 @@
                                                                                                             </value>
                                                                                                             <value name="B">
                                                                                                               <block type="math_number" id="224">
-                                                                                                                <field name="NUM">128</field>
+                                                                                                                <field name="NUM">256</field>
                                                                                                               </block>
                                                                                                             </value>
                                                                                                           </block>
