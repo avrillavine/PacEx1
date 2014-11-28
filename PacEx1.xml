@@ -39,8 +39,18 @@
                     <statement name="DO0">
                       <block type="oled_cleardisplay" id="11">
                         <next>
-                          <block type="multimedia_playwav" id="130">
-                            <field name="WAV">pacman_w.wav</field>
+                          <block type="controls_whileUntil" id="145" inline="false">
+                            <field name="MODE">WHILE</field>
+                            <value name="NUMBER">
+                              <block type="sensor_button" id="147">
+                                <field name="OBJECT">RIGHT</field>
+                              </block>
+                            </value>
+                            <statement name="DO">
+                              <block type="multimedia_playwav" id="146">
+                                <field name="WAV">pacman_w.wav</field>
+                              </block>
+                            </statement>
                             <next>
                               <block type="multimedia_displaybmp" id="12">
                                 <field name="BMP">pac1.bmp</field>
@@ -107,7 +117,7 @@
                                                                     </value>
                                                                     <value name="B">
                                                                       <block type="math_number" id="30">
-                                                                        <field name="NUM">30</field>
+                                                                        <field name="NUM">128</field>
                                                                       </block>
                                                                     </value>
                                                                   </block>
@@ -125,7 +135,7 @@
                                                                         </value>
                                                                         <value name="B">
                                                                           <block type="math_number" id="34">
-                                                                            <field name="NUM">2</field>
+                                                                            <field name="NUM">9</field>
                                                                           </block>
                                                                         </value>
                                                                       </block>
