@@ -109,7 +109,7 @@
                                                               <block type="controls_if" id="27" inline="false">
                                                                 <value name="IF0">
                                                                   <block type="logic_compare" id="28" inline="true">
-                                                                    <field name="OP">LTE</field>
+                                                                    <field name="OP">GTE</field>
                                                                     <value name="A">
                                                                       <block type="variables_get" id="29">
                                                                         <field name="VAR">value</field>
@@ -193,7 +193,7 @@
                                                                                                         <field name="MODE">WHILE</field>
                                                                                                         <value name="NUMBER">
                                                                                                           <block type="logic_compare" id="152" inline="true">
-                                                                                                            <field name="OP">LT</field>
+                                                                                                            <field name="OP">GT</field>
                                                                                                             <value name="A">
                                                                                                               <block type="variables_get" id="153">
                                                                                                                 <field name="VAR">value</field>
