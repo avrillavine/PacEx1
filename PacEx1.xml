@@ -190,7 +190,7 @@
                                                                                                     </value>
                                                                                                     <next>
                                                                                                       <block type="controls_whileUntil" id="189" inline="false">
-                                                                                                        <field name="MODE">UNTIL</field>
+                                                                                                        <field name="MODE">WHILE</field>
                                                                                                         <value name="NUMBER">
                                                                                                           <block type="logic_compare" id="152" inline="true">
                                                                                                             <field name="OP">GT</field>
@@ -210,15 +210,15 @@
                                                                                                           <block type="variables_set" id="155" inline="true">
                                                                                                             <field name="VAR">value</field>
                                                                                                             <value name="VALUE">
-                                                                                                              <block type="math_arithmetic" id="156" inline="true">
-                                                                                                                <field name="OP">ADD</field>
+                                                                                                              <block type="math_arithmetic" id="190" inline="true">
+                                                                                                                <field name="OP">DIVIDE</field>
                                                                                                                 <value name="A">
-                                                                                                                  <block type="variables_get" id="157">
+                                                                                                                  <block type="variables_get" id="191">
                                                                                                                     <field name="VAR">value</field>
                                                                                                                   </block>
                                                                                                                 </value>
                                                                                                                 <value name="B">
-                                                                                                                  <block type="math_number" id="158">
+                                                                                                                  <block type="math_number" id="192">
                                                                                                                     <field name="NUM">9</field>
                                                                                                                   </block>
                                                                                                                 </value>
