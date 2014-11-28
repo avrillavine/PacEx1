@@ -42,7 +42,7 @@
                     </value>
                     <next>
                       <block type="oled_linerect" id="358">
-                        <field name="OBJECT">LINE</field>
+                        <field name="OBJECT">RECT</field>
                         <next>
                           <block type="controls_if" id="9" inline="false">
                             <mutation elseif="1"></mutation>
