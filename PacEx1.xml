@@ -410,7 +410,7 @@
                                                               <block type="controls_if" id="199" inline="false">
                                                                 <value name="IF0">
                                                                   <block type="logic_compare" id="200" inline="true">
-                                                                    <field name="OP">LTE</field>
+                                                                    <field name="OP">GTE</field>
                                                                     <value name="A">
                                                                       <block type="variables_get" id="201">
                                                                         <field name="VAR">value</field>
@@ -418,7 +418,7 @@
                                                                     </value>
                                                                     <value name="B">
                                                                       <block type="math_number" id="202">
-                                                                        <field name="NUM">128</field>
+                                                                        <field name="NUM">1</field>
                                                                       </block>
                                                                     </value>
                                                                   </block>
