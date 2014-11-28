@@ -211,7 +211,7 @@
                                                                                                             <field name="VAR">value</field>
                                                                                                             <value name="VALUE">
                                                                                                               <block type="math_arithmetic" id="190" inline="true">
-                                                                                                                <field name="OP">MINUS</field>
+                                                                                                                <field name="OP">MULTIPLY</field>
                                                                                                                 <value name="A">
                                                                                                                   <block type="variables_get" id="191">
                                                                                                                     <field name="VAR">value</field>
@@ -219,7 +219,7 @@
                                                                                                                 </value>
                                                                                                                 <value name="B">
                                                                                                                   <block type="math_number" id="192">
-                                                                                                                    <field name="NUM">100</field>
+                                                                                                                    <field name="NUM">-100</field>
                                                                                                                   </block>
                                                                                                                 </value>
                                                                                                               </block>
