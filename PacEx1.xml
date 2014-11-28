@@ -340,40 +340,40 @@
                     <statement name="DO1">
                       <block type="oled_cleardisplay" id="196">
                         <next>
-                          <block type="controls_whileUntil" id="193" inline="false">
-                            <field name="MODE">UNTIL</field>
-                            <value name="NUMBER">
-                              <block type="sensor_button" id="194">
-                                <field name="OBJECT">RIGHT</field>
-                              </block>
-                            </value>
-                            <statement name="DO">
-                              <block type="multimedia_playwav" id="195">
-                                <field name="WAV">pacman_w.wav</field>
-                              </block>
-                            </statement>
+                          <block type="multimedia_displaybmp" id="50">
+                            <field name="BMP">pac8.bmp</field>
                             <next>
-                              <block type="multimedia_displaybmp" id="50">
-                                <field name="BMP">pac8.bmp</field>
+                              <block type="oled_setcursor" id="51" inline="true">
+                                <value name="STARTX">
+                                  <block type="variables_get" id="52">
+                                    <field name="VAR">value</field>
+                                  </block>
+                                </value>
+                                <value name="STARTY">
+                                  <block type="math_number" id="53">
+                                    <field name="NUM">1</field>
+                                  </block>
+                                </value>
                                 <next>
-                                  <block type="oled_setcursor" id="51" inline="true">
-                                    <value name="STARTX">
-                                      <block type="variables_get" id="52">
-                                        <field name="VAR">value</field>
-                                      </block>
-                                    </value>
-                                    <value name="STARTY">
-                                      <block type="math_number" id="53">
-                                        <field name="NUM">1</field>
+                                  <block type="robot_delay" id="54" inline="true">
+                                    <value name="DELAY">
+                                      <block type="math_number" id="55">
+                                        <field name="NUM">40</field>
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="robot_delay" id="54" inline="true">
-                                        <value name="DELAY">
-                                          <block type="math_number" id="55">
-                                            <field name="NUM">40</field>
+                                      <block type="controls_whileUntil" id="243" inline="false">
+                                        <field name="MODE">UNTIL</field>
+                                        <value name="NUMBER">
+                                          <block type="sensor_button" id="244">
+                                            <field name="OBJECT">LEFT</field>
                                           </block>
                                         </value>
+                                        <statement name="DO">
+                                          <block type="multimedia_playwav" id="245">
+                                            <field name="WAV">pacman_w.wav</field>
+                                          </block>
+                                        </statement>
                                         <next>
                                           <block type="oled_cleardisplay" id="56">
                                             <next>
