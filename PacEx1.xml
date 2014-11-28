@@ -190,7 +190,7 @@
                                                                                                     </value>
                                                                                                     <next>
                                                                                                       <block type="controls_whileUntil" id="189" inline="false">
-                                                                                                        <field name="MODE">WHILE</field>
+                                                                                                        <field name="MODE">UNTIL</field>
                                                                                                         <value name="NUMBER">
                                                                                                           <block type="logic_compare" id="152" inline="true">
                                                                                                             <field name="OP">GT</field>
