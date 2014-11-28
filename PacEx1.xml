@@ -512,7 +512,7 @@
                                                                                                             <field name="VAR">value</field>
                                                                                                             <value name="VALUE">
                                                                                                               <block type="math_arithmetic" id="226" inline="true">
-                                                                                                                <field name="OP">DIVIDE</field>
+                                                                                                                <field name="OP">MULTIPLY</field>
                                                                                                                 <value name="A">
                                                                                                                   <block type="variables_get" id="227">
                                                                                                                     <field name="VAR">value</field>
