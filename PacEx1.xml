@@ -193,7 +193,7 @@
                                                                                                         <field name="MODE">WHILE</field>
                                                                                                         <value name="NUMBER">
                                                                                                           <block type="logic_compare" id="152" inline="true">
-                                                                                                            <field name="OP">GT</field>
+                                                                                                            <field name="OP">LT</field>
                                                                                                             <value name="A">
                                                                                                               <block type="variables_get" id="153">
                                                                                                                 <field name="VAR">value</field>
