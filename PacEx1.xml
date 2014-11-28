@@ -418,7 +418,7 @@
                                                                     </value>
                                                                     <value name="B">
                                                                       <block type="math_number" id="202">
-                                                                        <field name="NUM">1</field>
+                                                                        <field name="NUM">-128</field>
                                                                       </block>
                                                                     </value>
                                                                   </block>
@@ -436,7 +436,7 @@
                                                                         </value>
                                                                         <value name="B">
                                                                           <block type="math_number" id="206">
-                                                                            <field name="NUM">-9</field>
+                                                                            <field name="NUM">9</field>
                                                                           </block>
                                                                         </value>
                                                                       </block>
@@ -502,7 +502,7 @@
                                                                                                             </value>
                                                                                                             <value name="B">
                                                                                                               <block type="math_number" id="224">
-                                                                                                                <field name="NUM">1</field>
+                                                                                                                <field name="NUM">128</field>
                                                                                                               </block>
                                                                                                             </value>
                                                                                                           </block>
