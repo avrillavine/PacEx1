@@ -502,7 +502,7 @@
                                                                                                             </value>
                                                                                                             <value name="B">
                                                                                                               <block type="math_number" id="224">
-                                                                                                                <field name="NUM">128</field>
+                                                                                                                <field name="NUM">-128</field>
                                                                                                               </block>
                                                                                                             </value>
                                                                                                           </block>
