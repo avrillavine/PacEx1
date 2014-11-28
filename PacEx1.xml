@@ -219,7 +219,7 @@
                                                                                                                 </value>
                                                                                                                 <value name="B">
                                                                                                                   <block type="math_number" id="192">
-                                                                                                                    <field name="NUM">5</field>
+                                                                                                                    <field name="NUM">100</field>
                                                                                                                   </block>
                                                                                                                 </value>
                                                                                                               </block>
