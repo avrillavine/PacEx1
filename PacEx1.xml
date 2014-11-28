@@ -37,20 +37,20 @@
                       </block>
                     </value>
                     <statement name="DO0">
-                      <block type="oled_cleardisplay" id="11">
+                      <block type="controls_whileUntil" id="145" inline="false">
+                        <field name="MODE">UNTIL</field>
+                        <value name="NUMBER">
+                          <block type="sensor_button" id="147">
+                            <field name="OBJECT">UP</field>
+                          </block>
+                        </value>
+                        <statement name="DO">
+                          <block type="multimedia_playwav" id="146">
+                            <field name="WAV">pacman_w.wav</field>
+                          </block>
+                        </statement>
                         <next>
-                          <block type="controls_whileUntil" id="145" inline="false">
-                            <field name="MODE">UNTIL</field>
-                            <value name="NUMBER">
-                              <block type="sensor_button" id="147">
-                                <field name="OBJECT">UP</field>
-                              </block>
-                            </value>
-                            <statement name="DO">
-                              <block type="multimedia_playwav" id="146">
-                                <field name="WAV">pacman_w.wav</field>
-                              </block>
-                            </statement>
+                          <block type="oled_cleardisplay" id="401">
                             <next>
                               <block type="multimedia_displaybmp" id="12">
                                 <field name="BMP">pac1.bmp</field>
