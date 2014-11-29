@@ -15,7 +15,7 @@
           </block>
         </value>
         <statement name="DO">
-          <block type="oled_cleardisplay" id="5">
+          <block type="oled_cleardisplay" id="5" disabled="true">
             <next>
               <block type="oled_setcursor" id="6" inline="true">
                 <value name="STARTX">
