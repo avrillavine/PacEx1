@@ -40,7 +40,7 @@
                       <block type="multimedia_playwav" id="11">
                         <field name="WAV">pacman_w.wav</field>
                         <next>
-                          <block type="oled_cleardisplay" id="134">
+                          <block type="oled_cleardisplay" id="12">
                             <next>
                               <block type="multimedia_displaybmp" id="13">
                                 <field name="BMP">pac1.bmp</field>
@@ -64,7 +64,7 @@
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="oled_cleardisplay" id="135">
+                                          <block type="oled_cleardisplay" id="19">
                                             <next>
                                               <block type="multimedia_displaybmp" id="20">
                                                 <field name="BMP">pac2.bmp</field>
@@ -131,7 +131,7 @@
                                                                       </block>
                                                                     </value>
                                                                     <next>
-                                                                      <block type="oled_cleardisplay" id="136">
+                                                                      <block type="oled_cleardisplay" id="36">
                                                                         <next>
                                                                           <block type="multimedia_displaybmp" id="37">
                                                                             <field name="BMP">pac1.bmp</field>
@@ -155,7 +155,7 @@
                                                                                       </block>
                                                                                     </value>
                                                                                     <next>
-                                                                                      <block type="oled_cleardisplay" id="137">
+                                                                                      <block type="oled_cleardisplay" id="43">
                                                                                         <next>
                                                                                           <block type="multimedia_displaybmp" id="44">
                                                                                             <field name="BMP">pac2.bmp</field>
@@ -215,7 +215,7 @@
                                                                                                               </block>
                                                                                                             </value>
                                                                                                             <next>
-                                                                                                              <block type="oled_cleardisplay" id="146">
+                                                                                                              <block type="oled_cleardisplay" id="58">
                                                                                                                 <next>
                                                                                                                   <block type="multimedia_displaybmp" id="59">
                                                                                                                     <field name="BMP">pac1.bmp</field>
@@ -239,7 +239,7 @@
                                                                                                                               </block>
                                                                                                                             </value>
                                                                                                                             <next>
-                                                                                                                              <block type="oled_cleardisplay" id="147">
+                                                                                                                              <block type="oled_cleardisplay" id="65">
                                                                                                                                 <next>
                                                                                                                                   <block type="multimedia_displaybmp" id="66">
                                                                                                                                     <field name="BMP">pac2.bmp</field>
@@ -331,7 +331,7 @@
                       <block type="multimedia_playwav" id="73">
                         <field name="WAV">pacman_w.wav</field>
                         <next>
-                          <block type="oled_cleardisplay" id="140">
+                          <block type="oled_cleardisplay" id="74">
                             <next>
                               <block type="multimedia_displaybmp" id="75">
                                 <field name="BMP">pac8.bmp</field>
@@ -355,7 +355,7 @@
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="oled_cleardisplay" id="141">
+                                          <block type="oled_cleardisplay" id="81">
                                             <next>
                                               <block type="multimedia_displaybmp" id="82">
                                                 <field name="BMP">pac2.bmp</field>
@@ -422,7 +422,7 @@
                                                                       </block>
                                                                     </value>
                                                                     <next>
-                                                                      <block type="oled_cleardisplay" id="142">
+                                                                      <block type="oled_cleardisplay" id="98">
                                                                         <next>
                                                                           <block type="multimedia_displaybmp" id="99">
                                                                             <field name="BMP">pac8.bmp</field>
@@ -446,7 +446,7 @@
                                                                                       </block>
                                                                                     </value>
                                                                                     <next>
-                                                                                      <block type="oled_cleardisplay" id="143">
+                                                                                      <block type="oled_cleardisplay" id="105">
                                                                                         <next>
                                                                                           <block type="multimedia_displaybmp" id="106">
                                                                                             <field name="BMP">pac2.bmp</field>
@@ -506,7 +506,7 @@
                                                                                                               </block>
                                                                                                             </value>
                                                                                                             <next>
-                                                                                                              <block type="oled_cleardisplay" id="144">
+                                                                                                              <block type="oled_cleardisplay" id="120">
                                                                                                                 <next>
                                                                                                                   <block type="multimedia_displaybmp" id="121">
                                                                                                                     <field name="BMP">pac8.bmp</field>
@@ -530,7 +530,7 @@
                                                                                                                               </block>
                                                                                                                             </value>
                                                                                                                             <next>
-                                                                                                                              <block type="oled_cleardisplay" id="145">
+                                                                                                                              <block type="oled_cleardisplay" id="127">
                                                                                                                                 <next>
                                                                                                                                   <block type="multimedia_displaybmp" id="128">
                                                                                                                                     <field name="BMP">pac2.bmp</field>
