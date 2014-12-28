@@ -701,7 +701,7 @@
                                                                                                                                                                               <block type="oled_cleardisplay" id="169">
                                                                                                                                                                                 <next>
                                                                                                                                                                                   <block type="multimedia_displaybmp" id="170">
-                                                                                                                                                                                    <field name="BMP">bpac2.bmp</field>
+                                                                                                                                                                                    <field name="BMP">fpac3.bmp</field>
                                                                                                                                                                                     <next>
                                                                                                                                                                                       <block type="oled_setcursor" id="171" inline="true">
                                                                                                                                                                                         <value name="STARTX">
