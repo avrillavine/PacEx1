@@ -905,7 +905,7 @@
                                                                                     </value>
                                                                                     <value name="B">
                                                                                       <block type="math_number" id="209">
-                                                                                        <field name="NUM">-128</field>
+                                                                                        <field name="NUM">128</field>
                                                                                       </block>
                                                                                     </value>
                                                                                   </block>
@@ -1005,7 +1005,7 @@
                                                                                                                                         <field name="MODE">WHILE</field>
                                                                                                                                         <value name="NUMBER">
                                                                                                                                           <block type="logic_compare" id="236" inline="true">
-                                                                                                                                            <field name="OP">LT</field>
+                                                                                                                                            <field name="OP">GT</field>
                                                                                                                                             <value name="A">
                                                                                                                                               <block type="variables_get" id="237">
                                                                                                                                                 <field name="VAR">value</field>
@@ -1013,7 +1013,7 @@
                                                                                                                                             </value>
                                                                                                                                             <value name="B">
                                                                                                                                               <block type="math_number" id="238">
-                                                                                                                                                <field name="NUM">-64</field>
+                                                                                                                                                <field name="NUM">128</field>
                                                                                                                                               </block>
                                                                                                                                             </value>
                                                                                                                                           </block>
@@ -1023,7 +1023,7 @@
                                                                                                                                             <field name="VAR">value</field>
                                                                                                                                             <value name="VALUE">
                                                                                                                                               <block type="math_arithmetic" id="240" inline="true">
-                                                                                                                                                <field name="OP">MULTIPLY</field>
+                                                                                                                                                <field name="OP">DIVIDE</field>
                                                                                                                                                 <value name="A">
                                                                                                                                                   <block type="variables_get" id="241">
                                                                                                                                                     <field name="VAR">value</field>
