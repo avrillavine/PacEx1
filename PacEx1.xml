@@ -897,7 +897,7 @@
                                                                               <block type="controls_if" id="206" inline="false">
                                                                                 <value name="IF0">
                                                                                   <block type="logic_compare" id="207" inline="true">
-                                                                                    <field name="OP">GTE</field>
+                                                                                    <field name="OP">LTE</field>
                                                                                     <value name="A">
                                                                                       <block type="variables_get" id="208">
                                                                                         <field name="VAR">value</field>
